@@ -3,3 +3,12 @@ body{
     background-color: rgb(206, 122, 206);
     text-align: left;
 }
+
+.title
+{
+    font-size:25px;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration:underline;
+    text-align:center;
+}
