@@ -1,8 +1,17 @@
-body{
+body
+{
     font-family:'Times New Roman', Times, serif;
     background-color: pink;
     text-align: left;
 }
+
+center
+{
+    font-family:'Times New Roman', Times, serif;
+    background-color: pink;
+    text-align: center;
+}
+
 
 .title
 {
@@ -10,5 +19,4 @@ body{
     font-weight:bold;
     font-family:'Times New Roman', Times, serif;
     text-decoration:underline;
-    text-align: center;
 }
