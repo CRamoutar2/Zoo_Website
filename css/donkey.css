@@ -3,3 +3,12 @@ body{
     background-color: pink;
     text-align: left;
 }
+
+title
+{
+    font-size:25px;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration:underline;
+    text-align: center;
+}
