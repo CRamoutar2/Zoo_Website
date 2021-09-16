@@ -103,7 +103,7 @@ h2 {
   object-fit: cover;
 }
 
-#elephant-row2 {
+.captioned {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -111,4 +111,8 @@ h2 {
 
 #turtle-page {
   background-color: #F3CD91;
+}
+
+#llama-page {
+  background-color: #88D3FC;
 }
