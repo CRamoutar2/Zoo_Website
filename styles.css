@@ -25,6 +25,8 @@ h2 {
   background-image: linear-gradient(to bottom right, #88D3FC, #F3CD91, #F0A8C6);
   width: 25%;
   padding: 2vw;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 2s;
 }
 
 #navigation {
@@ -119,4 +121,9 @@ h2 {
 
 #donkey-page {
   background-color: #F0A8C6;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
 }
