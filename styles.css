@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+#landing {
+  background-image: url("css/pictures/panda.jpg");
+  height: 100%;
+  width: 100vw;
+  padding: 8vw;
+}
+
+#landing-text {
+  border: 0px hidden red;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom right, #88D3FC, #F3CD91, #F0A8C6);
+  width: 25%;
+  padding: 2vw;
+}
+
+#navigation {
+  background-image: linear-gradient(to bottom right, #88D3FC, #F3CD91, #F0A8C6);
+  padding: 4vw;
+}
+
+#list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2vw;
+}
+
+.animal {
+  border: 0px hidden red;
+  border-radius: 20px;
+  background-color: #FFF;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animal-img {
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  border: 0px hidden red;
+  border-radius: 20px;
+  align-self: center;
+}
