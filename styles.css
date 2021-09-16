@@ -1,0 +1,145 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+#landing {
+  background-image: url("css/pictures/panda.jpg");
+  height: 100%;
+  width: 100vw;
+  padding: 8vw;
+}
+
+#landing-text {
+  border: 0px hidden red;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom right, #88D3FC, #F3CD91, #F0A8C6);
+  width: 25%;
+  padding: 2vw;
+  -webkit-animation: fadeIn 2s;
+  animation: fadeIn 2s;
+}
+
+#navigation {
+  background-image: linear-gradient(to bottom right, #88D3FC, #F3CD91, #F0A8C6);
+  padding: 4vw;
+}
+
+#list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2vw;
+}
+
+.animal {
+  border: 0px hidden red;
+  border-radius: 20px;
+  background-color: #FFF;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animal-img {
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  border: 0px hidden red;
+  border-radius: 20px;
+  align-self: center;
+}
+
+.animal > a, .animal > a:hover {
+  color: inherit;
+  text-decoration: none; 
+  cursor: pointer;
+}
+
+#elephant-page {
+  background-color: #F0A8C6;
+}
+
+.return {
+  float: left;
+  position: absolute;
+  width: 16vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0px hidden red;
+  border-radius: 20px;
+}
+
+.return > a, .return > a:hover {
+  color: inherit;
+  text-decoration: none; 
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row-text {
+  width: 50%;
+  margin: 4vw;
+  text-align: left;
+}
+
+.page-img {
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.captioned {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#turtle-page {
+  background-color: #F3CD91;
+}
+
+#llama-page {
+  background-color: #88D3FC;
+}
+
+#donkey-page {
+  background-color: #F0A8C6;
+}
+
+#footer {
+  background-color: #1B1C22;
+  color: #FCF7FF;
+}
+
+.footer-link {
+  color: inherit;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+    to { opacity: 1; }
+}
