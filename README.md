@@ -1,5 +1,5 @@
 # Zoo_Website
-Must edit page descriptions for animals, elephant is the most completed<br/>
+Assignment 1</br>
 <u>Contributors:</u></br>
 <ul>
 <li>Chethram Ramoutar</li>
