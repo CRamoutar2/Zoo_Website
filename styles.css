@@ -7,7 +7,7 @@ body {
   overflow-x: hidden;
 }
 
-h2 {
+h2, h3 {
   margin: 0;
   padding: 0;
 }
@@ -121,6 +121,16 @@ h2 {
 
 #donkey-page {
   background-color: #F0A8C6;
+}
+
+#footer {
+  background-color: #1B1C22;
+  color: #FCF7FF;
+}
+
+a, a:hover {
+  color: #FCF7FF !important;
+  cursor: pointer;
 }
 
 @keyframes fadeIn {
